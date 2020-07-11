@@ -1,0 +1,57 @@
+name: Dero
+main: net.lexonje.dero.Plugin
+version: 1.0
+description: The best game in the world! :D
+author: LeXonJe
+api-version: 1.15
+depend: [Multiverse-Core]
+commands:
+  clock:
+    description: Shows remaining time.
+    usage: /clock
+  shutdown:
+    description: Automatic shutdown.
+    usage: /shutdown <hour> <minute>
+  revive:
+    description: Revives a dead player.
+    usage: /revive <Player>
+    aliases: [rv]
+  lastposition:
+    description: Teleports a player. lol
+    usage: /lastposition <Target> <To Player>
+    aliases: [lp]
+  msg:
+    description: Sends a private message.
+    usage: /msg <Player> <Message>
+    aliases: [r, message]
+  build:
+    description: Gives a player the permission to build in some areas.
+    usage: /build <Name>
+  help:
+    description: Gives a list of all commands.
+    usage: /help
+    aliases: [?,hilfe]
+  alert:
+    description: Alerts all players.
+    usage: /alert <Message>
+  hub:
+    description: Teleports the player to the hub.
+    usage: /hub
+    aliases: [lobby]
+  join:
+    description: Teleports the player to the game.
+    usage: /join
+  setup:
+    description: Sets up the game.
+    usage: /setup <args>
+  info:
+    description: Shows some informations.
+    usage: /info
+    aliases: [version]
+  rinv:
+    description: Replaces Admin Inventory.
+    usage: /rinv
+  spec:
+    description: Sets Admin to Spectator.
+    usage: /spec
+    aliases: [spectator]
